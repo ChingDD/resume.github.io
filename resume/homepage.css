@@ -1,0 +1,48 @@
+.body{
+    display: flex;
+}
+.SectionLeft{
+    flex:none;
+    background-color:rgb(228, 245, 228);
+    width:350px; 
+}
+.section1{
+    display: flex;
+    justify-content: center;
+}
+.photo{
+    width:200px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.SectionRight{
+    flex:auto;
+}
+.title{
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 10px;
+    padding-top:10px;
+    text-decoration: underline; 
+}
+.小標題{
+    font-weight:900;
+    font-size: 18px;
+}
+.content{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.section2{
+    
+    padding-bottom: 10px;
+}
+.section3{
+   
+    padding-bottom: 10px;
+}
+.section4{
+    
+    padding-bottom: 150px;
+    
+}

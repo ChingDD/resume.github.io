@@ -1,0 +1,40 @@
+.frame{
+    display:flex;/*讓下一層次的項目水平排列*/
+}
+.left{
+    
+    flex:none;/*固定配置:表示參考寬度是固定的，如果是%就是%*/
+    width:200px;
+}
+.right{
+    
+    justify-content:flex-end;/*項目水平靠右*/
+    flex:auto; /*自動把剩下的空間填滿*/
+    display:flex;/*讓下一層次的項目水平排列*/
+}
+.item{
+    
+    flex:none;
+    width:100px;
+    margin-right:10px;
+    text-align: center;/*文字置中*/
+    
+
+}
+
+/*.welcome{background-color: gray;font-size:50px;text-align: center;height:400px
+    ;text-align:center;}*/
+
+.welcome{
+    background-color: gray;
+    display: flex;
+    justify-content:center;/*項目水平置中*/
+    align-items: center;/*項目垂直置中*/
+    height:300px
+}
+.text{
+    height: 40px; width: 300px;
+    font-size:30px;
+    text-align: center;
+    font-weight: bold;
+}
